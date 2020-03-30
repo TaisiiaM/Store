@@ -14,66 +14,66 @@ a{
 	width: 90%;
 	margin: auto;
 }
-.header{
+header{
 	width: 100%;
 	height: 70vh;
 	background: url('../img/background.jpg') no-repeat center;
 	background-size: cover; 
 }
-.header .logo img{
+header .logo img{
 	width: 60px;
 }
-.headerNav{
+.header-nav{
 	box-sizing: border-box;
 	padding-top: 20px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 }
-.headerNav .tel{
+.header-nav .tel{
     color: white;
 }
-.headerNav .contacts a{
+.header-nav .contacts a{
 	color: white;
 	display: block;
 	padding: 2px 25px; 
 	background-color: black;
 }
-.headerNav .contacts a:hover{
+.header-nav .contacts a:hover{
 	background-color: #636363;
     transition: 0.3s;
 }
-.header .slide .circle{
+header .slide .circle{
 	width: 18px;
 	height: 18px;
 	background-color: black;
 	margin: 2px;
 	border-radius: 50%; 
 }
-.header .slide .circle:hover{
+header .slide .circle:hover{
 	background-color: #636363;
 }
-.nav, section, .footer{
+nav, section, footer{
 	background: #636363;
 }
-.nav img{
+nav img{
 	width: 40px;
 }
-.nav ul{
+nav ul{
 	list-style: none;
 }
-.nav li{
+nav li{
 	display: inline-block;
 }
-.nav a{
+nav a{
 	color: black;
 	display: block;
 }
-.nav a:hover{
+nav a:hover{
 	background: black;
 	color: white;
 }
-.goods img.good{
+.goods img.commodity{
 	width: 25%;
 }
 .about img{
