@@ -51,7 +51,9 @@ header .slider {
   width: 100%;
   height: 70vh;
   background-image: url("../img/background.jpg");
+  background-attachment: fixed;
   background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   display: flex;
 }
@@ -336,4 +338,56 @@ main .goods .scroll-goods-mobile .button-more {
     cursor: pointer;
   }
   /* END MEDIA 760px SCROLL GOODS */
+}
+
+/* MOBILE PARALLAX */
+.parallax {
+  width: 100%;
+  height: 30vh;
+  background-image: url(../img/background.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* END MOBILE PARALLAX */
+
+/* ABOUT MOBILE */
+.about h2 {
+  color: var(--first-color);
+  text-align: center;
+  margin: 25px 0px;
+  font-size: 1.8rem;
+}
+
+.about img {
+  width: 100%;
+}
+.about .container {
+  max-width: 100%;
+}
+.about .about-wrap {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: var(--first-color);
+  align-items: center;
+  text-align: center;
+}
+/* ABOUT MOBILE */
+
+@media (max-width: 540px) {
+  .about .about-wrap {
+    width: 70vw;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  .about .container {
+    max-width: 960px;
+  }
 }
