@@ -42,7 +42,7 @@ header .header-nav .contacts {
 }
 
 header .header-nav .tel {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
   font-weight: 500;
   color: var(--first-color);
 }
@@ -78,7 +78,7 @@ nav {
 }
 /* END NAV */
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
   /* MEDIA FOR LAPTOP*/
   /* HEADER */
   header .header-nav .nav-mobile {
@@ -269,7 +269,7 @@ main .collectoin {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
   main .collectoin {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -315,7 +315,7 @@ main .goods .scroll-goods-mobile .button-more {
 }
 /* END MOBILE SCKOLL GOODS*/
 
-@media (min-width: 768px) {
+@media (min-width: 720px) {
   /* MEDIA SCROLL GOODS */
   main .goods .scroll-goods-mobile {
     display: none;
@@ -376,7 +376,7 @@ main .goods .scroll-goods-mobile .button-more {
 }
 /* ABOUT MOBILE */
 
-@media (max-width: 540px) {
+@media (max-width: 519px) {
   .about .about-wrap {
     width: 70vw;
     margin: auto;
@@ -386,8 +386,198 @@ main .goods .scroll-goods-mobile .button-more {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 960px) {
   .about .container {
     max-width: 960px;
   }
 }
+/* SECTION REVIEWS MOBILE */
+.reviews {
+  margin-top: 25px;
+  background-color: var(--help-color);
+  padding: 30px 0px;
+  font-size: 0.9rem;
+}
+
+.reviews .wrap {
+  width: 80%;
+  margin: auto;
+}
+.reviews .wrap h3 {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+
+.reviews .wrap img {
+  width: 100%;
+}
+
+.reviews .wrap .reviews-sleder {
+  display: none;
+}
+
+@media (min-width: 520px) {
+  .reviews {
+    margin-top: 0px;
+  }
+  .reviews .wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .reviews .wrap img {
+    width: 50%;
+    margin-right: 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .reviews {
+    background-color: var(--main-color);
+  }
+  .reviews .wrap {
+    background-color: var(--help-color);
+    box-sizing: border-box;
+    padding: 35px;
+  }
+  .reviews .wrap img {
+    max-width: 30%;
+  }
+  .reviews .wrap .reviews-sleder {
+    display: block;
+    font-size: 1.5rem;
+    padding: 5px;
+  }
+
+  .reviews .wrap .reviews-sleder:hover {
+    cursor: pointer;
+    background-color: var(--main-color);
+  }
+}
+/* END REVIEWS */
+/* FORM  */
+.contact-form {
+  background-color: var(--first-color);
+  padding: 25px 0px;
+}
+.contact-form h3 {
+  width: 100%;
+  text-align: center;
+}
+.contact-form form label {
+  display: none;
+}
+.contact-form form input {
+  width: 80%;
+  margin-top: 15px;
+  padding: 10px;
+}
+.contact-form form {
+  text-align: center;
+}
+.contact-form form input[type="submit"] {
+  background-color: black;
+  color: var(--first-color);
+  font-size: 1rem;
+  border: none;
+}
+
+@media (min-width: 648px) {
+  .contact-form h3 {
+    font-size: 1.3rem;
+  }
+
+  .contact-form form label {
+    display: inline-block;
+  }
+
+  .contact-form form input {
+    width: 50%;
+  }
+  .contact-form form input::placeholder {
+    color: transparent;
+  }
+
+  .contact-form form .field {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contact-form form input[type="submit"] {
+    width: 30%;
+  }
+
+  .contact-form form input[type="submit"]:hover {
+    background-color: var(--help-color);
+    color: black;
+  }
+}
+/* END FORM */
+
+/* GOOGLE MAP */
+.google-map #map {
+  width: 100%;
+  height: 40vh;
+}
+
+/* END GOOGLE MAP */
+
+/* FOOTER */
+footer a {
+  text-decoration: none;
+}
+footer img {
+  width: 50px;
+}
+footer .links {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container {
+  text-align: center;
+  padding: 35px 0px;
+}
+footer .contact,
+footer .by {
+  color: var(--first-color);
+  font-weight: 400;
+}
+footer .tel {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+@media (min-width: 598px) {
+  footer .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  footer .links {
+    width: 30%;
+  }
+
+  footer .container .foo .tel {
+    margin-bottom: 10px;
+  }
+
+  footer img:hover {
+    background-color: var(--help-color);
+  }
+  /* footer .container .foo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  } */
+}
+
+/* END FOOTER */
