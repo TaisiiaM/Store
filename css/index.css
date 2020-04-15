@@ -590,15 +590,24 @@ footer .tel {
 }
 
 /* END FOOTER */
-
-
 .modal{
+position: absolute;
+width: 300px;
+margin-left: -150px;
+left: 50%;
+top: -100%;
+padding: 20px;
+background-color: var(--first-color);
+border: 1px solid black;
+z-index: 20;
+transition: all 0.5s ease-in;
+}
+
+.overflow{
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.7);
   position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border: 1px solid black;
-  z-index: 20;
-  background-color: var(--first-color);
-  display: none;
+  top: 0;
 }
