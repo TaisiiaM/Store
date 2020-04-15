@@ -6,11 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Store women's handbags</title>
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/index.css" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Sen:400,700&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Slick -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <!-- My style -->
+    <link rel="stylesheet" href="css/index.css" />       
   </head>
   <body>
     <header>
@@ -58,7 +60,7 @@
           <li><a href="#">Limited</a></li>
         </ul>
         <ul class="order-nav">
-          <li><img src="img/favorites.png" alt="favorites" /></li>
+          <li><img src="img/favorites.png" alt="favorites" /></li>            
           <li><img src="img/basket.png" alt="basket" /></li>
         </ul>
       </div>
@@ -157,11 +159,9 @@
           </div>
         </div>
       </article>
-
       <div class="parallax">
         <div class="parallax-item"></div>
       </div>
-
       <section class="about">
         <div class="container">
           <h2>About us</h2>
@@ -185,23 +185,30 @@
       </section>
       <section class="reviews">
         <div class="container">
-          <div class="wrap">
-            <div class="reviews-sleder">
-              <div class="prev">&#10094;</div>
+          <div class="my-slider">
+            <div class="wrap">
+              <img src="img/face.png" alt="Face" />
+              <div class="reviews-text">
+                <h3>Name Surname</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam lacinia sapien quis lacinia scelerisque. Nunc pharetra,
+                  lacus ut ultricies aliquam, metus libero aliquam nunc, varius
+                  facilisis dolor tortor vel nibh.
+                </p>
+              </div>
             </div>
-            <img src="img/face.png" alt="Face" />
-            <div class="reviews-text">
-              <h3>Name Surname</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
-                lacinia sapien quis lacinia scelerisque. Nunc pharetra, lacus ut
-                ultricies aliquam, metus libero aliquam nunc, varius facilisis
-                dolor tortor vel nibh.
-              </p>
-            </div>
-
-            <div class="reviews-sleder">
-              <div class="next">&#10095;</div>
+            <div class="wrap">
+              <img src="img/face.png" alt="Face" />
+              <div class="reviews-text">
+                <h3>Name Surname</h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Nullam lacinia sapien quis lacinia scelerisque. Nunc pharetra,
+                  lacus ut ultricies aliquam, metus libero aliquam nunc, varius
+                  facilisis dolor tortor vel nibh.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -209,7 +216,7 @@
       <section class="contact-form">
         <div class="container">
           <h3>Contact us</h3>
-          <form action="POST" id="forma">
+          <form action="https://formspree.io/mqklopgj" method="POST" id="forma">
             <div class="field">
               <label for="name">Enter your name</label>
               <input
@@ -217,6 +224,7 @@
                 id="name"
                 name="user-name"
                 placeholder="Enter your name"
+                required
               />
             </div>
             <div class="field">
@@ -226,24 +234,31 @@
                 id="surname"
                 name="user-surname"
                 placeholder="Enter your surname"
+                required
               />
             </div>
             <div class="field">
-              <label for="number">Enter your number</label>
+              <label for="number"
+                >Enter your number <br />
+                <small>form xxx-xxx-xxxx</small>
+              </label>
               <input
-                type="text"
+                type="tel"
                 id="number"
                 name="user-number"
-                placeholder="Enter your number"
+                placeholder="Form xxx-xxx-xxxx"
+                required
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
               />
             </div>
             <div class="field">
               <label for="mail">Enter your E-mail</label>
               <input
-                type="text"
+                type="email"
                 id="mail"
                 name="user-mail"
                 placeholder="Enter your E-mail"
+                required
               />
             </div>
             <input type="submit" value="Send" />
@@ -272,13 +287,13 @@
           <p>Our contacts</p>
         </div>
         <div class="links">
-          <a href="#">
+          <a href="https://www.facebook.com">
             <img src="img/facebook.png" alt="Facebook" />
           </a>
-          <a href="#">
+          <a href="https://www.instagram.com/">
             <img src="img/instagram.png" alt="Instagram" />
           </a>
-          <a href="#">
+          <a href="https://www.youtube.com/">
             <img src="img/youtube.png" alt="Youtube" />
           </a>
         </div>
@@ -292,5 +307,14 @@
         </div>
       </div>
     </footer>
+    <!-- Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <!-- Slick -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- My script -->
+    <script src="scripts/script.js"></script>
   </body>
 </html>
