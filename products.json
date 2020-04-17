@@ -1,0 +1,65 @@
+[
+    {
+        "id": "1",
+        "title": "Black bag",
+        "collection": "new",
+        "image": "bag-black.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper facilisis lorem porttitor sagittis.",
+        "price": 499
+    },
+    {
+        "id": "2",
+        "title": "Small bag",
+        "collection": "discount",
+        "image": "little-bag.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper facilisis lorem porttitor sagittis.",
+        "price": 599
+    },
+    {
+        "id": "3",
+        "title": "Pink bag",
+        "collection": "limited",
+        "image": "pink-bag.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper facilisis lorem porttitor sagittis.",        "price": 650
+    },
+    {
+        "id": "4",
+        "title": "Сlassic bag",
+        "collection": "new",
+        "image": "bag-autumn-collection.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper facilisis lorem porttitor sagittis.",
+        "price": 699
+    },
+    {
+        "id": "5",
+        "title": "Brown bag",
+        "collection": "discount",
+        "image": "brown-bag.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper facilisis lorem porttitor sagittis.",
+        "price": 260
+    },
+    {
+        "id": "6",
+        "title": "Blue bag",
+        "collection": "limited",
+        "image": "blue-bag.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper facilisis lorem porttitor sagittis.",
+        "price": 830
+    },
+    {
+        "id": "7",
+        "title": "Red bag",
+        "collection": "new",
+        "image": "red-bag.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper facilisis lorem porttitor sagittis.",
+        "price": 550
+    },
+    {
+        "id": "8",
+        "title": "Pink bag",
+        "collection": "limited",
+        "image": "pink-bag.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur semper facilisis lorem porttitor sagittis.",
+        "price": 499
+    }
+]
