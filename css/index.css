@@ -6,6 +6,10 @@
   --first-color: #e4e4e4;
   --help-color: #828080;
   background-color: var(--main-color);
+<<<<<<< HEAD
+  user-select: none;
+=======
+>>>>>>> 5a7e48cb019cb3baa31025672b1b45a5ae9c9906
 }
 
 body {
@@ -95,8 +99,29 @@ header .slider .info {
 /* /HEADER MOBILE */
 
 /* NAV MOBILE */
-nav {
-  display: none !important;
+nav .collection-nav {
+  display: none;
+}
+nav .order-nav{
+background-color: var(--help-color);
+text-align: center;
+position: relative;
+width: auto;
+margin-top: 25px;
+padding-bottom: 5px;
+}
+nav .order-nav li{
+  list-style: none;
+}
+nav .order-nav li img{
+width: 40px;
+}
+.order-nav .badge-light {
+  position: relative;
+  background-color: black;
+  padding: 0px 5px 5px 5px;
+  color: var(--first-color);
+  top: 15px;
 }
 /* END NAV */
 
@@ -170,6 +195,9 @@ nav {
   }
   /* END HEADER */
   /* NAV */
+<<<<<<< HEAD
+
+=======
   .order-nav .badge-light {
     position: relative;
     background-color: black;
@@ -177,6 +205,7 @@ nav {
     color: var(--first-color);
     top: 15px;
   }
+>>>>>>> 5a7e48cb019cb3baa31025672b1b45a5ae9c9906
   nav {
     display: block !important;
     margin-top: 25px;
@@ -214,8 +243,14 @@ nav {
 
   nav .order-nav {
     display: flex;
+<<<<<<< HEAD
+    margin-top: 0;
+    padding-bottom: 0;
+=======
     /* align-items: center; */
+>>>>>>> 5a7e48cb019cb3baa31025672b1b45a5ae9c9906
   }
+
   nav .order-nav li {
     /* padding: 0 5px; */
     background-color: var(--help-color);
@@ -572,16 +607,35 @@ footer .tel {
   border-radius: 0;
   outline: none;
 }
+<<<<<<< HEAD
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active{
+  background-color: rgb(29, 29, 29);
+  outline: none;
+}
+button,
+button:active,
+button:focus,
+=======
 .btn-primary:hover {
   background-color: rgb(29, 29, 29);
 }
 button,
 button:active,
 button:active,
+>>>>>>> 5a7e48cb019cb3baa31025672b1b45a5ae9c9906
 btn,
 btn:active,
 btn:focus {
   outline: none;
+<<<<<<< HEAD
+  border: none;
+  border: 0;
+  transition: none;
+  box-shadow: none;
+=======
+>>>>>>> 5a7e48cb019cb3baa31025672b1b45a5ae9c9906
 }
 .btn-info {
   background-color: var(--first-color);
@@ -595,6 +649,11 @@ btn:focus {
   border: none;
   outline: none;
   border: 0;
+<<<<<<< HEAD
+  transition: none;
+  box-shadow: none;
+=======
+>>>>>>> 5a7e48cb019cb3baa31025672b1b45a5ae9c9906
 }
 .card {
   border-radius: 0;
