@@ -6,10 +6,7 @@
   --first-color: #e4e4e4;
   --help-color: #828080;
   background-color: var(--main-color);
-<<<<<<< HEAD
   user-select: none;
-=======
->>>>>>> 5a7e48cb019cb3baa31025672b1b45a5ae9c9906
 }
 
 body {
@@ -195,9 +192,7 @@ width: 40px;
   }
   /* END HEADER */
   /* NAV */
-<<<<<<< HEAD
 
-=======
   .order-nav .badge-light {
     position: relative;
     background-color: black;
@@ -205,7 +200,6 @@ width: 40px;
     color: var(--first-color);
     top: 15px;
   }
->>>>>>> 5a7e48cb019cb3baa31025672b1b45a5ae9c9906
   nav {
     display: block !important;
     margin-top: 25px;
@@ -243,12 +237,9 @@ width: 40px;
 
   nav .order-nav {
     display: flex;
-<<<<<<< HEAD
     margin-top: 0;
     padding-bottom: 0;
-=======
     /* align-items: center; */
->>>>>>> 5a7e48cb019cb3baa31025672b1b45a5ae9c9906
   }
 
   nav .order-nav li {
@@ -607,7 +598,6 @@ footer .tel {
   border-radius: 0;
   outline: none;
 }
-<<<<<<< HEAD
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active{
@@ -617,25 +607,14 @@ footer .tel {
 button,
 button:active,
 button:focus,
-=======
-.btn-primary:hover {
-  background-color: rgb(29, 29, 29);
-}
-button,
-button:active,
-button:active,
->>>>>>> 5a7e48cb019cb3baa31025672b1b45a5ae9c9906
 btn,
 btn:active,
 btn:focus {
   outline: none;
-<<<<<<< HEAD
   border: none;
   border: 0;
   transition: none;
   box-shadow: none;
-=======
->>>>>>> 5a7e48cb019cb3baa31025672b1b45a5ae9c9906
 }
 .btn-info {
   background-color: var(--first-color);
@@ -649,11 +628,8 @@ btn:focus {
   border: none;
   outline: none;
   border: 0;
-<<<<<<< HEAD
   transition: none;
   box-shadow: none;
-=======
->>>>>>> 5a7e48cb019cb3baa31025672b1b45a5ae9c9906
 }
 .card {
   border-radius: 0;
